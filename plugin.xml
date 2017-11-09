@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    id="cordova-plugin-hide-home-indicator" version="1.0.0">
+    <name>Hide Home Indicator</name>
+    <description>Hides the iOS 11 home indicator</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,ios,home</keywords>
+    <platform name="ios">
+        <header-file src="src/ios/HideHomeIndicator.h" />
+        <source-file src="src/ios/HideHomeIndicator.m" />
+    </platform>
+</plugin>
