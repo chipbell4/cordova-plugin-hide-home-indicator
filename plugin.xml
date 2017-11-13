@@ -10,7 +10,7 @@
         <param name="onload" value="true" />
     </feature>
     <platform name="ios">
-        <header-file src="src/ios/HideHomeIndicator.h" />
-        <source-file src="src/ios/HideHomeIndicator.m" />
+        <header-file src="src/ios/HideHomeIndicatorPlugin.h" />
+        <source-file src="src/ios/HideHomeIndicatorPlugin.m" />
     </platform>
 </plugin>

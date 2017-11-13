@@ -1,4 +1,4 @@
-#import "HideHomeIndicator.h"
+#import "HideHomeIndicatorPlugin.h"
 
 @implementation HideHomeIndicatorPlugin
 
