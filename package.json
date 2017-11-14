@@ -1,0 +1,16 @@
+{
+  "name": "cordova-plugin-hide-home-indicator",
+  "version": "1.0.0",
+  "description": "Simple cordova plugin to hide the iPhone X home indicator bar at the bottom",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cordova",
+    "home",
+    "iphonex"
+  ],
+  "author": "Chip Bell",
+  "license": "MIT"
+}
