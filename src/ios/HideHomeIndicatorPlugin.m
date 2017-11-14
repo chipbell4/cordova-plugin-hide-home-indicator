@@ -9,3 +9,12 @@
 
 @end
 
+@interface CDVViewController (HideHomeIndicator)
+- (BOOL)prefersHomeIndicatorAutoHidden;
+@end
+
+@implementation CDVViewController (HideHomeIndicator)
+- (BOOL) prefersHomeIndicatorAutoHidden {
+        return YES;
+}
+@end
