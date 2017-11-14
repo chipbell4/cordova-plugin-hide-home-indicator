@@ -5,11 +5,13 @@
     <description>Hides the iOS 11 home indicator</description>
     <license>Apache 2.0</license>
     <keywords>cordova,ios,home</keywords>
-    <feature name="HideHomeIndicatorPlugin">
-        <param name="ios-package" value="HideHomeIndicatorPlugin" />
-        <param name="onload" value="true" />
-    </feature>
     <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="HideHomeIndicatorPlugin">
+                <param name="ios-package" value="HideHomeIndicatorPlugin" />
+                <param name="onload" value="true" />
+            </feature>
+        </config-file>
         <header-file src="src/ios/HideHomeIndicatorPlugin.h" />
         <source-file src="src/ios/HideHomeIndicatorPlugin.m" />
     </platform>
