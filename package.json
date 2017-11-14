@@ -1,14 +1,14 @@
 {
   "name": "cordova-plugin-hide-home-indicator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple cordova plugin to hide the iPhone X home indicator bar at the bottom",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository" : {
-    "url" : "https://github.com/chipbell4/cordova-plugin-hide-home-indicator.git",
-    "type" : "git"
+  "repository": {
+    "url": "https://github.com/chipbell4/cordova-plugin-hide-home-indicator.git",
+    "type": "git"
   },
   "keywords": [
     "cordova",
