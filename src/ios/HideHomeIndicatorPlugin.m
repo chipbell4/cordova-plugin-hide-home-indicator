@@ -4,7 +4,7 @@
 
 - (void) pluginInitialize
 {
-    NSLog(@"Greetings from the plugin y'all");
+    NSLog(@"Plugin initialized, hiding home indicator by default");
 }
 
 @end
